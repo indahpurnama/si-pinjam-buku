@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2016, 7:07:26 AM
+    Author     : Masdalifah H. Andini
+*/
+body{
+	/*background: #353535;*/
+	background: url(../../img/buku.jpg);
+	background-repeat: repeat;
+}
+
+.badan{
+	background: white;	
+}
+
+.box-login table tr th,
+.box-login table tr td{
+	font-size: 11pt;
+
+}
+.box-login table > tbody{
+	border-top: none;
+}
+
+.box-login input[type="text"],
+.box-login input[type="password"]{
+	height: 38px;
+	margin-top: -5px;
+}
+
+
+.box-login .table > thead > tr > th, 
+.box-login .table > tbody > tr > th, 
+.box-login .table > tfoot > tr > th, 
+.box-login .table > thead > tr > td, 
+.box-login .table > tbody > tr > td, 
+.box-login .table > tfoot > tr > td{
+	border-top: none;
+	color:#fff;
+	background:#CCCC00;
+}
+
+
+.clearfix{
+	clear: both;
+}
+
+textarea{
+	max-width: 600px;	
+	min-width: 400px;
+	resize:none;
+	max-height: 100px;
+	min-height: 100px;
+}
+
+.page-header h1{
+	font-size: 15pt;
+}
+
+.ui-datepicker-year,
+.ui-datepicker-month{
+	color: #2C3E50;
+}
+
+*{
+	font-size: 98%;
+}
+
+input[type="text"],
+input[type="password"],
+select{
+	font-size: 110%;
+	height: 28px;	
+}
+
+table.table-xxx th{
+	text-align: right;
+	
+	
+}
+
+.top-kiri img.logo1{
+	width: 140px;
+	height: auto;
+}
+
+.top-kanan img.logo2{
+	height: 100px;
+}
+
+.top-tengah h1{
+	margin: 3px 0px;
+	font-weight: bold;	
+}
+
+.top-tengah{
+	padding-left: 40px;
+}
+
+.top-tengah h4{	
+	margin: 9px 0px;
+}
+
+.top{	
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 40px;		
+	background: white;
+}
+
+
+.navbar{
+	background: #66CC33;
+	border:none;		
+	border-radius: 0;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:hover{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li a:hover, 
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus{
+	background: #66CC33;
+}
+
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus{
+	background: #CCCC00;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav li ul li a{
+	color: #333333;
+}
+.navbar-default .navbar-nav li ul li a:hover{
+	color: #fff;
+}
+
+body{
+    padding-top: 70px;
+}
